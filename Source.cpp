@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 #include <cmath>
 using namespace std;
 int distance(int a_x, int a_y, int b_x, int b_y) {
@@ -14,5 +14,5 @@ int main() {
 	int b_x, b_y;
 	cout << "b_x, b_y: ";
 	cin >> b_x >> b_y;
-	cout << "Ðàññòîÿíèå:" << "(" << a_x << "," << " " << a_y << ") è" << "(" << b_x << "," << " " << b_y << "):" << distance(a_x, a_y, b_x, b_y) << endl;
+	cout << "Ð Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ:" << "(" << a_x << "," << " " << a_y << ") Ð¸" << "(" << b_x << "," << " " << b_y << "):" << distance(a_x, a_y, b_x, b_y) << endl;
 }
