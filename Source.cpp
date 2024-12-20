@@ -7,6 +7,7 @@ int distance(int a_x, int a_y, int b_x, int b_y) {
 }
 
 int main() {
+	//Алгоритм расчета
 	system("chcp 1251");
 	int a_x, a_y;
 	cout << "a_x, a_y: ";
