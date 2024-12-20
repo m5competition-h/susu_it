@@ -8,11 +8,11 @@ int distance(int a_x, int a_y, int b_x, int b_y) {
 
 int main() {
 	system("chcp 1251");
-	int a_x, a_y;
+	int q_x, q_y;
 	cout << "a_x, a_y: ";
-	cin >> a_x >> a_y;
+	cin >> q_x >> q_y;
 	int b_x, b_y;
 	cout << "b_x, b_y: ";
 	cin >> b_x >> b_y;
-	cout << "Расстояние между двумя точками:" << "(" << a_x << "," << " " << a_y << ")" << "(" << b_x << "," << " " << b_y << "):" << distance(a_x, a_y, b_x, b_y) << endl;
+	cout << "Расстояние между двумя точками:" << "(" << q_x << "," << " " << q_y << ")" << "(" << b_x << "," << " " << b_y << "):" << distance(q_x, q_y, b_x, b_y) << endl;
 }
