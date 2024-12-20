@@ -1,4 +1,4 @@
-#include <iostream>
+п»ї#include <iostream>
 #include <cmath>
 using namespace std;
 int distance(int a_x, int a_y, int b_x, int b_y) {
@@ -7,6 +7,7 @@ int distance(int a_x, int a_y, int b_x, int b_y) {
 }
 
 int main() {
+	//РђР»РіРѕСЂРёС‚Рј СЂР°СЃС‡РµС‚Р°
 	system("chcp 1251");
 	int q_x, q_y;
 	cout << "a_x, a_y: ";
@@ -14,5 +15,5 @@ int main() {
 	int b_x, b_y;
 	cout << "b_x, b_y: ";
 	cin >> b_x >> b_y;
-	cout << "Расстояние между двумя точками:" << "(" << q_x << "," << " " << q_y << ")" << "(" << b_x << "," << " " << b_y << "):" << distance(q_x, q_y, b_x, b_y) << endl;
+	cout << "пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ:" << "(" << q_x << "," << " " << q_y << ")" << "(" << b_x << "," << " " << b_y << "):" << distance(q_x, q_y, b_x, b_y) << endl;
 }
